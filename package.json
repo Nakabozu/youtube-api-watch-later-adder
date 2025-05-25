@@ -1,0 +1,32 @@
+{
+    "name": "youtube-watch-later-adder-sveltekit",
+    "private": true,
+    "version": "0.0.1",
+    "type": "module",
+    "author": {
+        "name": "Nakabozu",
+        "email": "spamnaka@gmail.com"
+    },
+    "description": "Runs a script that scrubs through the videos for a given channel, up to a certain timestamp, and adds all of those videos to your \"Watch Later\" playlist using the YouTube API.",
+    "scripts": {
+        "dev": "vite dev",
+        "build": "vite build",
+        "preview": "vite preview",
+        "prepare": "svelte-kit sync || echo ''"
+    },
+    "devDependencies": {
+        "@sveltejs/adapter-auto": "^6.0.0",
+        "@sveltejs/kit": "^2.16.0",
+        "@sveltejs/vite-plugin-svelte": "^5.0.0",
+        "dotenv": "^16.5.0",
+        "sqlite3": "^5.1.7",
+        "svelte": "^5.0.0",
+        "vite": "^6.2.6"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": true,
+        "singleQuote": true
+    }
+}
