@@ -129,7 +129,7 @@
         })
             .then((res) => {
                 if (res.ok) {
-                    return;
+                    return res.json();
                 } else {
                     throw new Error('Network response was not ok.');
                 }
